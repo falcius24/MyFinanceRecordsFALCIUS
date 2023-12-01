@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grades">
+        <item>Grade 1</item>
+        <item>Grade 2</item>
+        <item>Grade 3</item>
+        <item>Grade 4</item>
+        <item>Grade 5</item>
+        <item>Grade 6</item>
+    </string-array>
+
+    <!-- Add the dialects array -->
+    <string-array name="dialects">
+        <item>English</item>
+        <item>Tagalog</item>
+        <item>Bisaya</item>
+    </string-array>
+</resources>

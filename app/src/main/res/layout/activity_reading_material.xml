@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadingMaterialActivity">
+
+    <TextView
+        android:id="@+id/txtReadingMaterialTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reading_material_title"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnOpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open"
+        android:layout_below="@id/txtReadingMaterialTitle"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- TextView to display the story -->
+    <TextView
+        android:id="@+id/txtStory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:padding="16dp"
+        android:layout_below="@id/btnOpen"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- TextView and Button for Activities -->
+    <TextView
+        android:id="@+id/txtActivitiesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activities"
+        android:layout_below="@id/txtStory"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnActivities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Activities"
+        android:layout_below="@id/txtActivitiesTitle"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- TextView and Button for Progress Tracking -->
+    <TextView
+        android:id="@+id/txtProgressTrackingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress Tracking"
+        android:layout_below="@id/btnActivities"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnProgressTracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Progress Tracking"
+        android:layout_below="@id/txtProgressTrackingTitle"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- TextView and Button for Feedback -->
+    <TextView
+        android:id="@+id/txtFeedbackTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:layout_below="@id/btnProgressTracking"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Feedback"
+        android:layout_below="@id/txtFeedbackTitle"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

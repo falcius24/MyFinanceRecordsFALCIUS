@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity">
+
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, User"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:id="@+id/spinnerGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:entries="@array/grades"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_below="@id/spinnerGrade"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnChooseLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Level"
+        android:layout_below="@id/btnLogOut"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/txtReadingMaterials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reading Materials"
+        android:visibility="gone"
+        android:layout_below="@id/btnChooseLevel"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtActivities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activities"
+        android:visibility="gone"
+        android:layout_below="@id/txtReadingMaterials"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtProgressTracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress Tracking"
+        android:visibility="gone"
+        android:layout_below="@id/txtActivities"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtFeedbacks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedbacks"
+        android:visibility="gone"
+        android:layout_below="@id/txtProgressTracking"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
